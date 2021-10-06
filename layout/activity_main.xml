@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/button"
+        android:onClick="RED"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="Красный"
+        android:textColor="@color/red"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/button"
+        android:onClick="YELLOW"
+        android:text="Желтый"
+        android:textColor="@color/yellow"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/button"
+        android:onClick="GREEN"
+        android:text="Зеленый"
+        android:textColor="@color/green"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="492dp" />
+</LinearLayout>
